@@ -13,7 +13,7 @@ jobs:
 
     env:
       IMAGE_NAME: todo-ui
-      IMAGE_TAG: v3
+      IMAGE_TAG: v4
       ACR_NAME: acrdevtodoapp01
       ACR_LOGIN_SERVER: acrdevtodoapp01.azurecr.io
 
