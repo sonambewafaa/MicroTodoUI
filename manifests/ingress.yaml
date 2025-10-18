@@ -3,6 +3,7 @@ kind: Ingress
 metadata:
   name: todo-ui-ingress
 spec:
+  ingressClassName: nginx
   rules:
   - host: ui.jhandu.shop
     http:
