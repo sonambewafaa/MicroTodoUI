@@ -14,7 +14,7 @@ jobs:
     env:
       IMAGE_NAME: todo-ui
       IMAGE_TAG: v4
-      ACR_NAME: acrdevtodoapp01
+      ACR_NAME: devopsinsidersacr235
       ACR_LOGIN_SERVER: devopsinsidersacr235.azurecr.io
 
     steps:
