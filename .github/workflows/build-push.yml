@@ -13,7 +13,11 @@ jobs:
 
     env:
       IMAGE_NAME: todo-ui
+<<<<<<< HEAD
       IMAGE_TAG: v4
+=======
+      IMAGE_TAG: v5
+>>>>>>> 78da1f8 (changes done)
       ACR_NAME: acrdevtodoapp01sohit
       ACR_LOGIN_SERVER: acrdevtodoapp01sohit.azurecr.io
 
@@ -24,7 +28,11 @@ jobs:
       - name: Azure Login
         uses: Azure/login@v2.3.0
         with:
+<<<<<<< HEAD
           client-id: b959bf1f-d6fc-4950-a90f-57b4ab9bab95
+=======
+          client-id: 3a74994d-83ee-4f0e-8e37-271effc1ddf0
+>>>>>>> 78da1f8 (changes done)
           tenant-id: c83b7e7f-8a37-4a58-b3cc-83a0b39033d0
           subscription-id: 3130fe23-dc28-48ba-a8e3-43702c2970a2
 
