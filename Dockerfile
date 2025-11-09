@@ -2,7 +2,7 @@
 FROM node:16.17.0-alpine as build
 
 # Set the working directory
-WORKDIR /app
+WORKDIR /app  
 
 # Copy package.json and package-lock.json to the working directory
 COPY package*.json ./
@@ -24,3 +24,4 @@ COPY --from=build /app/build /usr/share/nginx/html
 
 # Expose port 80
 EXPOSE 80
+
