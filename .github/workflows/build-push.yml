@@ -14,8 +14,8 @@ jobs:
     env:
       IMAGE_NAME: todo-ui
       IMAGE_TAG: v3
-      ACR_NAME: acrdevtodoapp01sohit
-      ACR_LOGIN_SERVER: acrdevtodoapp01sohit.azurecr.io
+      ACR_NAME: sohitacrdev01
+      ACR_LOGIN_SERVER: sohitacrdev01.azurecr.io
 
     steps:
       - name: Checkout code
@@ -24,9 +24,9 @@ jobs:
       - name: Azure Login
         uses: Azure/login@v2.3.0
         with:
-          client-id: b959bf1f-d6fc-4950-a90f-57b4ab9bab95
-          tenant-id: c83b7e7f-8a37-4a58-b3cc-83a0b39033d0
-          subscription-id: 3130fe23-dc28-48ba-a8e3-43702c2970a2
+          client-id: 3d4cb9b2-31d4-4781-8fc7-36392e41968a
+          tenant-id: ea9ca8b6-aa2d-4c4a-904a-cb93fd58a0b9
+          subscription-id: 86cd11f5-4d26-4e93-bfa9-c0b7b2f44cc9
 
 
       - name: Log in to ACR
