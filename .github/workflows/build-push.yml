@@ -14,8 +14,8 @@ jobs:
     env:
       IMAGE_NAME: todo-ui
       IMAGE_TAG: v2
-      ACR_NAME: todoappacrdev001
-      ACR_LOGIN_SERVER: todoappacrdev001.azurecr.io
+      ACR_NAME: devacrdev001
+      ACR_LOGIN_SERVER: devacrdev001.azurecr.io
 
     steps:
       - name: Checkout code
