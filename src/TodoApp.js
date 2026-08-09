@@ -8,7 +8,7 @@ import config from './config'; // Import the config file with environment variab
 // Use the config to define API URLs
 const GET_TASKS_API_BASE_URL = "http://get-tasks-api.sohitguptadevops.online"; // Replace with your actual API base URL
 const DELETE_TASK_API_BASE_URL = "http://delete-tasks-api.sohitguptadevops.online"; // Replace with your actual API base URL
-const CREATE_TASK_API_BASE_URL = "http://create-tasks-api.sohitguptadevops.online"; // Replace with your actual API base URL
+const CREATE_TASK_API_BASE_URL = "http://add-task-api.sohitguptadevops.online"; // Replace with your actual API base URL
 
 //Update Task Functionality is Work In Progress
 // const UPDATE_TASK_API_BASE_URL = '';
