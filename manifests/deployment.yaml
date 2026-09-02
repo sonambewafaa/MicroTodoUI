@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: todo-ui
-        image: sohitacrdev01.azurecr.io/todo-ui:v3
+        image: sohitgupta/todoui-sep:v1
         ports:
         - containerPort: 80
